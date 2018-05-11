@@ -1,0 +1,317 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.title{
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    padding: 60px 0 30px;
+    margin: auto;
+    color: #fff;
+    font-size: 60px;
+}
+.titleline{
+    width: 100px;
+    height: 6px;
+    margin: auto;
+    background: #fff;
+}
+.playnum{
+    width: 290px;
+    margin: 1rem auto;
+    text-align: center;
+    /* position: absolute; */
+    /* bottom: 290px;
+    left: 50%;
+    transform: translateX(-50%); */
+}
+.weixin{
+    width: 130px;
+    height: 130px;
+    margin: auto;
+    /* position: absolute; */
+    /* bottom: 150px; */
+    /* left: 50%;
+    transform: translateX(-50%); */
+    /* background: url("./../image/prizedraw/weixin.png") center no-repeat; */
+}
+.weixin canvas{
+    width:100%;
+}
+.shows{
+    width: 300px;
+    height: 80px;
+    margin: 20px auto 0px;
+    /* position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%); */
+    background: url("./../image/prizedraw/bg1.png") center no-repeat;
+}
+.logo{
+    width: 300px;
+    height: 45px;
+    margin: auto;
+    /* position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%); */
+    background: url("./../image/prizedraw/logo.png") center no-repeat;
+}
+.imgbg{
+    width: 100vw;
+    min-height: 1080px;
+    /* background: url("./../image/prizedraw/bodybgs.png") center no-repeat; */
+    /* background-position-y: 800px; */
+}
+.imgboxshow{
+    max-width: 1500px;
+    margin: 30px auto 10px;
+}
+.imgbox{
+    width: 290px;
+    height: 475px;
+    background:  url("./../image/prizedraw/bg3.png") center no-repeat;
+}
+.imgjiang{
+    width: 220px;
+    height: 210px;
+    margin:32.5px 35px 0px;
+}
+.imgjiang img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.prizeci{
+    width: 90%;
+    height: 80px;
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: 550;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    bottom: 145px;
+    left: 50%;
+    transform: translateX(-50%);
+    background:  url("./../image/prizedraw/bg2.png") center no-repeat;
+}
+.prizestartbtn{
+    width: 150px;
+    height: 56px;
+    line-height: 50px;
+    font-size: 17px;
+    text-align: center;
+    position: absolute;
+    color: #fff;
+    font-weight: 550;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background:  url("./../image/prizedraw/start.png") center no-repeat;
+}
+.prizestartbtn2{
+    background:  url("./../image/prizedraw/reload.png") center no-repeat;
+}
+.prizestartbtn1{
+    background:  url("./../image/prizedraw/over.png") center no-repeat;
+}
+.prizereloadbtn{
+    width: 200px;
+    height: 80px;
+    line-height: 70px;
+    font-size: 17px;
+    text-align: center;
+    position: absolute;
+    color: #646464;
+    font-weight: 550;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background:  url("./../image/prizedraw/reload.png") center no-repeat;
+}
+.prizeoverbtn{
+    width: 200px;
+    height: 80px;
+    line-height: 70px;
+    font-size: 17px;
+    text-align: center;
+    position: absolute;
+    color: #fff;
+    font-weight: 550;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background:  url("./../image/prizedraw/over.png") center no-repeat;
+}
+.prizeshow{
+    width: 90%;
+    height: 70px;
+    position: absolute;
+    bottom: 82px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.numti{
+    color: #fff; 
+    font-size: 20px;
+}
+.num{
+    color: #ffea00;
+    font-size: 25px;
+    font-weight: 500;
+}
+.prizenum,.prizename{
+    font-size: 16px;
+    color: #242424;
+}
+.prizenums{
+    font-size: 16px;
+    color: #a08815;
+}
+.prizebox{
+    width: 1042px;
+    min-height: 558px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 99;
+    transform: translate(-50%,-50%);
+    /* background: url("./../image/prizedraw/bg4s.png") center no-repeat; */
+}
+.prizetop{
+    width: 100%;
+    min-height: 417px;
+    padding-bottom: 20px;
+    background: #eb453d;
+    border-top-right-radius:10px;
+    border-top-left-radius: 10px; 
+}
+.prizebottom{
+    width: 100%;
+    min-height: 116px;
+    background: #ffd512;
+    border-bottom-right-radius:10px;
+    border-bottom-left-radius: 10px; 
+}
+.prizetopimg{
+    width: 100%;
+    height: 220px;
+    padding-top: 34.5px;
+    background: url("./../image/prizedraw/bg5.png") center no-repeat;
+}
+.prizeboxshow1br{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.prizeboxshow5br{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.prizeboxtitle{
+    padding: 25px 0px 15px;
+}
+.prizeboxline{
+    width: 92%;
+    margin: 0px auto 40px;
+    height: 1px;
+    background: #fff;
+}
+.prizeboxclose{
+    position: absolute;
+    top: 25px;
+    right: 40px;
+    color: #fff;
+    font-size: 30px;
+}
+.prizeboxshow{
+    max-width: 800px;
+    height: 183px;
+    margin: auto;
+}
+.prizeboximgout{
+    width: 155px;
+    height: 185px;
+    margin: 0px 2px;
+    float: left;
+    text-align: center;
+    background: #fff;
+    overflow: hidden;   
+}
+.prizeboximg{
+    position: absolute;
+    top: 0px;
+}
+.prizeboximg  img{
+    width: 100px;
+    height: 100px;
+    margin: 30px auto 10px;
+    border-radius: 50%;
+}
+.prizeboxstartbtn{
+    width: 175px;
+    height: 70px;
+    line-height: 60px;
+    font-size: 17px;
+    text-align: center;
+    position: absolute;
+    color: #fff;
+    font-weight: 550;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background:  url("./../image/prizedraw/start.png") center no-repeat;
+    background-size: 90%;
+}
+.prizeboxmove{
+    width: 100%;
+    height: 100%;
+    /* transform:translate(0px,0px) translateZ(0px); */
+}
+.img{
+    width: 155px;
+    height: 185px;
+}
+.bodybg{
+    width: 100%;
+    height: 100%;
+    background: url("./../image/prizedraw/bodybg.jpg") center no-repeat;
+    background-position-y: 0rem;
+}
+.ml450{
+    margin-left: 450px;
+}
+.ml550{
+    margin-left: 580px;
+}
+.weixin img{
+    width: 100%;
+}
+.clear{clear:both}
+.clear:after{display:block;content:"";clear:both}
+.re{position: relative;}
+.wp100{width: 100%;}
+.tac{text-align: center;}
+.fg{cursor: pointer;}
+.cfff{color: #fff;}
+.fs25{font-size: 25px;}
+.fs20{font-size: 20px;}
+.fl{float: left;}
+.fr{float: right;}
+.mt10{margin-top: 10px;}
+.max150{max-width: 150px;}
+.mgauto{margin: auto;}
+/*省略号*/
+.lineshow {text-overflow: ellipsis;overflow: hidden;white-space: nowrap;}
+.overbox{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    background: #999;
+    opacity:0.5;
+}
+.hide{display: none;}

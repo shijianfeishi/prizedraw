@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>抽奖活动</title>
+        <link rel="stylesheet" href="./css/prizedraw.css">
+        <script src="./js/jquery-2.1.4.min.js"></script>
+        <script type="text/javascript" src="./js/jquery.qrcode.min.js"></script>
+	</head>
+	<body class="bodybg">
+        <div class="imgbg re" id="vuesb">
+            <img src="" alt="" srcset="">
+            <h1 class="title">抽奖活动名称</h1>
+            <div class="titleline"></div>
+            <div class="imgboxshow clear"></div>
+            <!-- 实时更新报名人数 -->
+            <div class="playnum">
+                <span class="numti">已报名人数：</span>
+                <span class="num">0</span>
+            </div>
+            <!-- 二维码生成div -->
+            <div class="weixin">
+                <div class="code overboximg"></div>
+            </div>
+            <div class="shows"></div>
+            <div class="prizeboxout hide">
+                <div class="prizebox">
+                    <div class="prizetop">
+                        <p class="wp100 cfff fs25 tac prizeboxtitle">奖</p>
+                        <div class="prizeboxclose fg">×</div>
+                        <div class="prizeboxline"></div>
+                        <!-- 奖品放置div -->
+                        <div class="prizetopimg">
+                            <div id="prizeboxshow1" class="prizeboxshow clear prizeboxshow1 re">
+                                   
+                            </div>
+                        </div>
+                        <div class="prizetopimg clear hide">
+                            <div id="prizeboxshow2" class="prizeboxshow clear re">
+                                
+                            </div>
+                        </div>
+                        <p class="wp100 cfff fs20 tac hide mt10 prizeboxtitle2box">恭喜以上用户抽中
+                            <span class="prizeboxtitle2">奖</span>
+                        </p>
+                    </div>
+                    <div class="prizebottom">
+                        <div class="fg prizeboxstartbtn" id="startfn" onclick="startfn(this)">抽奖</div>
+                        <div class="fg prizeboxstartbtn hide" id="stopbtn" onclick="stopfn()">停止</div>
+                    </div>
+                </div>
+                <div class="overbox">
+                    
+                </div>
+            </div>
+        </div>
+        <!-- <script src="/js/vue.min.js"></script> -->
+        <script src="./js/prizedraw.js"></script>
+    </body>
+</html>
